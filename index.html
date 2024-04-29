@@ -2,11 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>One Developer Army</title>
+    <link rel="stylesheet" href="icons/fontawesome-free-5.15.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.day.css" />
 </head>
 <body>
-    <h1>Hello World!</h1>
+
+    <nav class="my-nav">
+        <!-- <div class="menus">
+            <a href="#" class="menu-item">About</a>
+            <a href="#" class="menu-item">About</a>
+            <a href="#" class="menu-item">About</a>
+        </div> -->
+        <div class="my-profile">
+            <img src="/dist/images/profile.png" class="profile-picture" />
+        </div>
+    </nav>
+    
+    
+
+    <div class="section">
+        <div class="flex">
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="display-3 mb-4 text-danger" style="font-weight: 700;">One Developer Army</h1>
+                    <br>
+                    <br>
+                    <br>
+                    <h3 class="mt-5 text-dark"><u>Website is under construction.</u></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="lib/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+        // tabs
+        $('#myTab a').on('click', function (event) {
+  event.preventDefault()
+  $(this).tab('show')
+})
+    </script>
 </body>
 </html>
